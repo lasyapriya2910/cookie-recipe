@@ -1,0 +1,72 @@
+body {
+    background-image: url(https://th.bing.com/th/id/R.a131293f752fb1d999b1a122010862f1?rik=eSwPLBhLRyQUHQ&riu=http%3a%2f%2fs1.bwallpapers.com%2fwallpapers%2f2014%2f02%2f07%2fchocolate-cookies_092406341.jpg&ehk=bZZD%2bY8MnOaCqcO86McEFRPo0DYKL5q%2bLDtl6JXUVxc%3d&risl=&pid=ImgRaw&r=0);
+    background-repeat: no-repeat;
+    background-size: 2600px;
+    background-position: center;
+}
+
+h1 {
+    font-family: cursive;
+    text-align: center;
+    font-size: 40px;
+    margin: 20px 0;
+    color:rgb(85, 40, 40);
+}
+
+main {
+    background-color: rgba(223, 218, 215, 0.8);
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 800px;
+}
+section {
+    font-family: cursive;
+    padding: 10px;
+    text-align: left;
+}img{
+    border-width: 2px;
+    border-style: solid;
+    border-color: #672b00;
+    margin-top: 60px;
+    margin-right: 50px;
+    margin-left: 10px;
+    max-width: 70%;
+}
+
+section h2 {
+    font-size: 30px;
+    color:rgb(85, 40, 40);
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: decimal;
+    text-align: left;
+    padding-left: 20px;
+}
+ul li{
+    color:rgb(83, 46, 21);
+    font-size: 20px;
+}
+h5{
+    text-align: center;
+    font-family: cursive;
+    font-size:small;
+    color: rgb(83, 46, 21);
+}
+@media only screen and (max-width: 700px) {
+    main {
+        margin: 0 10px;
+    }
+}
+@media only screen and (min-width:768px) {
+    img{
+        float:right;
+        max-width:40%;
+    }
+    body{
+        background-size: cover;
+    }
+    
+}
